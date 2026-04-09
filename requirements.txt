@@ -13,3 +13,4 @@ numpy
 scikit-learn
 torch
 ipykernel
+langchain-groq
