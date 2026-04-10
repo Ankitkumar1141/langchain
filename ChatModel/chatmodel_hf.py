@@ -4,12 +4,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-    task="text-generation"
+    repo_id="deepseek-ai/DeepSeek-R1"
 )
 
 model = ChatHuggingFace(llm=llm)
 
 result = model.invoke("What is the capital of India")
 
-print(result.content)
+print(result)
