@@ -14,3 +14,4 @@ scikit-learn
 torch
 ipykernel
 langchain-groq
+sentence-transformers
