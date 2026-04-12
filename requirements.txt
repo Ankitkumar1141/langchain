@@ -15,3 +15,4 @@ torch
 ipykernel
 langchain-groq
 sentence-transformers
+streamlit
